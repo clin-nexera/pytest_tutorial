@@ -6,7 +6,6 @@
 #         assert "Robot moved\n" in output
 
 
-#     @pytest.mark.usefixtures("connect_robot")
 #     def test_robot_move_2(self, capsys, robot):
 #         robot.move()
 #         output = capsys.readouterr().out
